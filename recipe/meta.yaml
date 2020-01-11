@@ -1,5 +1,5 @@
 {% set name = "kxmlgui" %}
-{% set version = "5.65.0" %}
+{% set version = "5.66.0" %}
 {% set major_minor = ".".join(version.split(".")[:2]) %}
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://download.kde.org/stable/frameworks/{{ major_minor }}/kxmlgui-{{ version }}.tar.xz
-  sha256: 1de343bd51ba57053fd30eefb2237fb022b7cc274be6132fb9064bec64c39e95
+  sha256: a8f9ed354e30ff1f40306e876d96fcd1fa3a26a8e6acfccdeab8f3437d7231bc
 
 build:
   number: 0
