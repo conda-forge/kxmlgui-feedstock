@@ -1,5 +1,5 @@
 {% set name = "kxmlgui" %}
-{% set version = "5.73.0" %}
+{% set version = "5.74.0" %}
 {% set major_minor = ".".join(version.split(".")[:2]) %}
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://download.kde.org/stable/frameworks/{{ major_minor }}/kxmlgui-{{ version }}.tar.xz
-  sha256: 093131f5f51497ec61e99bd3e19de9421643d3f6ddf0099a823a3d624596ebcb
+  sha256: c5601a811c5d680b370ccf0388de71a49af090718b5f25716c38ce9689c783a1
 
 build:
   number: 0
@@ -50,9 +50,14 @@ test:
 
 about:
   home: https://api.kde.org/frameworks/kxmlgui/html/index.html
-  license: LGPL-v2.1-or-later
-  license_family: GPL
-  license_file: COPYING.LIB
+  license: GPL-2.0-or-later AND LGPL-2.0-only AND LGPL-2.0-or-later AND LGPL-2.1-or-later AND LGPL-3.0-only AND LicenseRef-KDE-Accepted-LGPL
+  license_file:
+    - LICENSES/GPL-2.0-or-later.txt
+    - LICENSES/LGPL-2.0-only.txt
+    - LICENSES/LGPL-2.0-or-later.txt
+    - LICENSES/LGPL-2.1-or-later.txt
+    - LICENSES/LGPL-3.0-only.txt
+    - LICENSES/LicenseRef-KDE-Accepted-LGPL.txt
   summary: Framework for managing menu and toolbar actions
   description: |
     KXMLGUI provides a framework for managing menu and toolbar actions
