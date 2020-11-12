@@ -3,11 +3,13 @@ About kxmlgui
 
 Home: https://api.kde.org/frameworks/kxmlgui/html/index.html
 
-Package license: LGPL-v2.1-or-later
+Package license: GPL-2.0-or-later AND LGPL-2.0-only AND LGPL-2.0-or-later AND LGPL-2.1-or-later AND LGPL-3.0-only AND LicenseRef-KDE-Accepted-LGPL
 
-Feedstock license: BSD-3-Clause
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/kxmlgui-feedstock/blob/master/LICENSE.txt)
 
 Summary: Framework for managing menu and toolbar actions
+
+Development: https://cgit.kde.org/kxmlgui.git/tree
 
 KXMLGUI provides a framework for managing menu and toolbar actions
 in an abstract way. The actions are configured through a XML description
